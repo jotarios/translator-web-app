@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#utec-logo {
+	display: inline-block;
+}
+
+#app-title {
+	margin-left: 1em;
+	display: inline-block;
+}
+
+#source {
+	height: 80px;
+	width: 500px;
+	padding: 0.5em;
+	resize: none;
+}
+
+#head {
+	margin-bottom: 2em;
+}
+
+#languages {
+	margin-bottom: 2em;		
+}
+
+#send {
+	margin-top: 1em;
+}

@@ -1,0 +1,21 @@
+extends layout
+
+block content
+	article#head
+		img#utec-logo(src="http://universityinnovation.org/images/8/86/Utec_2.jpg" width="100" alt="Image Title")
+		h1#app-title Translator
+
+	section.container
+		article.row#languages
+			div.col-sm
+				input#from(name="from")
+			div.col-sm
+				input#to(name="to")		
+		article.row
+			div.col-sm
+				textarea#source(rows="1" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off")
+			div.col-sm
+				p#response
+		article.row
+			div.col-sm
+				button#send(type="submit" class="btn btn-primary") Go
